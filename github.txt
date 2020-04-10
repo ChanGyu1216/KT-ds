@@ -1,0 +1,20 @@
+git clone https://github.com/ChanGyu1216/KT-ds.git
+
+cd KT-ds
+
+(test.text) 파일 넣기
+
+git status (빨간색)
+
+git add text.txt
+git add *
+
+git status (초록색)
+
+git commit -m "Add test.text"
+
+git remote add origin https://github.com/ChanGyu1216/KT-ds.git
+
+git remote -v
+
+git push
